@@ -1,4 +1,4 @@
-# Hacker777-cris
+# Hacker777-cris - Portfolio Website
 
 ![Website Screenshot](./img/screenshot.png)
 
@@ -15,33 +15,42 @@
 
 ## About
 
-Briefly introduce your website and its purpose. Highlight the main features and benefits.
+Welcome to my portfolio website! I'm a passionate Python backend developer, and this platform is designed to showcase my skills, projects, and experiences in the world of software development. Explore my journey, delve into my projects, and get to know the developer behind the code.
 
 ## Features
 
-List some of the key features of your website. You can use bullet points for better readability.
+- **Project Showcase:** Discover a collection of my recent projects, ranging from web applications to backend systems.
+- **Skills Spotlight:** Explore my skill set, which includes Python, Django, backend development, and more.
+- **About Me:** Learn about my background, experience, and what drives me in the field of software development.
 
 ## Technologies Used
 
-Mention the technologies, programming languages, and frameworks you used to build your website.
+This portfolio website is built using the following technologies:
+
+- HTML5, CSS3 for structure and styling
+- JavaScript for interactive elements
+- Bootstrap for responsive design
+- Git and GitHub for version control and collaboration
 
 ## Getting Started
 
-Provide information on how to set up the project locally. Include prerequisites, installation steps, and any environment setup.
+To explore and run this project locally, follow these steps:
 
-## Installation
+1. Clone the repository: `git clone https://github.com/hacker777-cris/hacker777-cris.git`
+2. Navigate to the project directory: `cd hacker777-cris`
+3. Open `index.html` in your web browser to view the portfolio.
 
-1. Clone the repository: `git clone https://github.com/your-username/your-website.git`
-2. Navigate to the project directory: `cd your-website`
-3. Install dependencies: `npm install` or `yarn install`
+## Live Website
+
+Visit my live portfolio website at [https://hacker777-cris.github.io/hacker777-cris/](https://hacker777-cris.github.io/hacker777-cris/).
 
 ## Usage
 
-Explain how to use your website. Provide examples or screenshots if necessary. Include any relevant commands or instructions.
+Navigate through the website's sections to learn more about me, explore my projects, and gain insights into my skills as a Python backend developer.
 
 ## Contributing
 
-If you'd like to contribute to the project, follow these steps:
+If you'd like to contribute to this portfolio or suggest improvements, feel free to follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/my-feature`
@@ -50,7 +59,5 @@ If you'd like to contribute to the project, follow these steps:
 5. Create a pull request.
 
 ## License
-
-Indicate the license your project is under. For example:
 
 This project is licensed under the [MIT License](LICENSE).
