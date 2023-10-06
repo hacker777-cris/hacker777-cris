@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Cris</h1>
 <h3 align="center">A passionate Backend developer from Kenya</h3>
 
+<img align="right" alt="Coding" width="400" Src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hacker777-cris" alt="hacker777-cris" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/__crispus__" target="blank"><img src="https://img.shields.io/twitter/follow/__crispus__?logo=twitter&style=for-the-badge" alt="__crispus__" /></a> </p>
