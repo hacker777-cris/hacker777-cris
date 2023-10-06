@@ -1,63 +1,37 @@
-# Hacker777-cris - Portfolio Website
+<h1 align="center">Hi 👋, I'm Cris</h1>
+<h3 align="center">A passionate Backend developer from Kenya</h3>
 
-![Website Screenshot](./img/screenshot.png)
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hacker777-cris" alt="hacker777-cris" /></a> </p>
 
-## Table of Contents
+<p align="left"> <a href="https://twitter.com/__crispus__" target="blank"><img src="https://img.shields.io/twitter/follow/__crispus__?logo=twitter&style=for-the-badge" alt="__crispus__" /></a> </p>
 
-- [About](#about)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- 🔭 I’m currently working on [ConnectHub](http://crispus.pythonanywhere.com/home)
 
-## About
+- 🌱 I’m currently learning **Kotlin**
 
-Welcome to my portfolio website! I'm a passionate Python backend developer, and this platform is designed to showcase my skills, projects, and experiences in the world of software development. Explore my journey, delve into my projects, and get to know the developer behind the code.
+- 👨‍💻 All of my projects are available at [https://hacker777-cris.github.io/hacker777-cris/](https://hacker777-cris.github.io/hacker777-cris/)
 
-## Features
+- 📝 I regularly write articles on [legionerror.wordpress.com](legionerror.wordpress.com)
 
-- **Project Showcase:** Discover a collection of my recent projects, ranging from web applications to backend systems.
-- **Skills Spotlight:** Explore my skill set, which includes Python, Django, backend development, and more.
-- **About Me:** Learn about my background, experience, and what drives me in the field of software development.
+- 💬 Ask me about **Django**
 
-## Technologies Used
+- 📫 How to reach me **crispusgikonyo@gmail.com**
 
-This portfolio website is built using the following technologies:
+- ⚡ Fun fact **I love Swimming**
 
-- HTML5, CSS3 for structure and styling
-- JavaScript for interactive elements
-- Bootstrap for responsive design
-- Git and GitHub for version control and collaboration
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/__crispus__" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="__crispus__" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/hacker777-cris" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="hacker777-cris" height="30" width="40" /></a>
+<a href="https://instagram.com/crispus.dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="crispus.dev" height="30" width="40" /></a>
+<a href="https://discord.gg/838294251841650728" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="838294251841650728" height="30" width="40" /></a>
+</p>
 
-## Getting Started
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-To explore and run this project locally, follow these steps:
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hacker777-cris&show_icons=true&locale=en&layout=compact" alt="hacker777-cris" /></p>
 
-1. Clone the repository: `git clone https://github.com/hacker777-cris/hacker777-cris.git`
-2. Navigate to the project directory: `cd hacker777-cris`
-3. Open `index.html` in your web browser to view the portfolio.
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hacker777-cris&show_icons=true&locale=en" alt="hacker777-cris" /></p>
 
-## Live Website
-
-Visit my live portfolio website at [https://hacker777-cris.github.io/hacker777-cris/](https://hacker777-cris.github.io/hacker777-cris/).
-
-## Usage
-
-Navigate through the website's sections to learn more about me, explore my projects, and gain insights into my skills as a Python backend developer.
-
-## Contributing
-
-If you'd like to contribute to this portfolio or suggest improvements, feel free to follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/my-feature`
-3. Make your changes and commit them: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature/my-feature`
-5. Create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hacker777-cris&" alt="hacker777-cris" /></p>
