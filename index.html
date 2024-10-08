@@ -1,242 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="./img/favicon-32x32.png">
-  <title>Chrispus Wandia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispus.dev - Backend Developer & Linux Enthusiast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #1e2127;
+            --text-color: #abb2bf;
+            --accent-color: #61afef;
+            --secondary-color: #98c379;
+            --tertiary-color: #c678dd;
+            --hover-color: #282c34;
+        }
+        body {
+            font-family: 'Ubuntu Mono', monospace;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        h1, h2 {
+            color: var(--accent-color);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        nav {
+            margin-bottom: 50px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease, transform 0.3s ease;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            color: var(--accent-color);
+            transform: translateY(-3px);
+        }
+        .content {
+            background-color: rgba(40, 44, 52, 0.7);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+        .skills {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .skill {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(97, 175, 239, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            margin: 10px;
+            flex-basis: calc(33.333% - 20px);
+        }
+        .skill:hover {
+            transform: translateY(-5px);
+            background-color: rgba(97, 175, 239, 0.2);
+        }
+        .skill h3 {
+            color: var(--accent-color);
+        }
+        .project {
+            background-color: rgba(97, 175, 239, 0.1);
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            background-color: rgba(97, 175, 239, 0.15);
+        }
+        .project h3 {
+            color: var(--secondary-color);
+        }
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .contact-link {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            background-color: var(--tertiary-color);
+            color: var(--bg-color);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+        .contact-link:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.9em;
+            color: var(--text-color);
+        }
+    </style>
 </head>
-
 <body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>Crispus</span>Wandia <span></span></h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#skills" data-after="Service">Skills</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header -->
-
-
-  <!-- Hero Section  -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Hello, <span></span></h1>
-        <h1>My Name is <span></span></h1>
-        <h1>CRISPUS WANDIA <span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
-      </div>
-    </div>
-  </section>
-  <!-- End Hero Section  -->
-<!-- Skills Section -->
-<section id="skills">
-  <div class="skills container">
-    <div class="skills-top">
-      <h1 class="section-title">Sk<span>i</span>lls</h1>
-      <p>Below are the skills I've developed</p>
-    </div>
-    <div class="skills-bottom">
-      <div class="skill-item python">
-        <div class="icon"><img src="https://img.icons8.com/ios/50/000000/python.png" alt="Python Icon" /></div>
-        <h2>Python</h2>
-        <p>Proficient in Python programming, capable of building various applications and solutions.</p>
-      </div>
-      <div class="skill-item django">
-        <div class="icon"><img src="https://img.icons8.com/ios/50/000000/django.png" alt="Django Icon" /></div>
-        <h2>Django</h2>
-        <p>Skilled in using Django framework to develop robust and scalable web applications.</p>
-      </div>
-      <div class="skill-item django-rest">
-        <div class="icon"><img src="https://img.icons8.com/ios/50/000000/django.png" alt="Django Icon" /></div>
-        <h2>Django Rest Framework</h2>
-        <p>Skilled in using Django framework to develop robust and scalable web applications.</p>
-      </div>
-      <div class="skill-item wordpress">
-        <div class="icon"><img src="https://img.icons8.com/ios/50/000000/wordpress.png" alt="WordPress Icon" /></div>
-        <h2>WordPress</h2>
-        <p>Experienced in building websites using WordPress, including customization and content management.</p>
-      </div>
-      <div class="skill-item canva">
-        <div class="icon"><img src="https://img.icons8.com/ios/50/000000/canva.png" alt="Canva Icon" /></div>
-        <h2>Canva</h2>
-        <p>Proficient in using Canva for creating visually appealing designs and graphics.</p>
-      </div>
-      <div class="skill-item security">
-        <div class="icon"><img src="https://img.icons8.com/ios/50/000000/hacker.png" alt="Security Icon" /></div>
-        <h2>Offensive Cybersecurity</h2>
-        <p>Skilled in offensive cybersecurity techniques, including vulnerability assessment and penetration testing.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Skills Section -->
-
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>ConnectHub</h2>
-            <p>Introducing ConnectHub: Your Social Network Redefined
-
-              ConnectHub is a dynamic and engaging social networking application developed using Django, designed to connect people, ideas, and conversations in a seamless virtual environment. With ConnectHub, we're bringing people closer together, empowering them to share experiences, exchange thoughts, and forge meaningful connections, all within a secure and user-friendly platform.</p>
-              <div style="display: flex; gap: 10px;">
-                <button onclick="window.location.href='http://crispus.pythonanywhere.com/'" class="button type1">
-                  <span class="btn-txt">Live Site</span>
-                </button>
-
-                <button onclick="window.location.href='https://github.com/hacker777-cris/connecthub.git'" class="button type1">
-                  <span class="btn-txt">Source Code</span>
-                </button>
-              </div>
-
-          </div>
-          <div class="project-img">
-            <img src="./img/socialapp.png" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Coolways online store</h2>
-            <p>CoolWays Online Shop is a cutting-edge e-commerce platform developed using Django, designed to redefine your shopping experience. With CoolWays, we've created a one-stop solution where you can explore an extensive range of products, place orders, and enjoy hassle-free deliveries, all from the comfort of your home.</p>
-            <div style="display: flex; gap: 10px;">
-              <button onclick="window.location.href='http://legionstore.pythonanywhere.com/'" class="button type1">
-                <span class="btn-txt">Live Site</span>
-              </button>
-
-              <button onclick="window.location.href='https://github.com/hacker777-cris/coolways-online-store.git'" class="button type1">
-                <span class="btn-txt">Source Code</span>
-              </button>
+    <div class="container">
+        <header>
+            <h1>Crispus.dev</h1>
+            <p>Backend Developer & Linux Enthusiast</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="home" class="content">
+            <h2>Welcome to My Tech Universe</h2>
+            <p>Hello! I'm Crispus, a passionate backend developer and Linux enthusiast. Join me on my journey as I explore the depths of server-side programming, dive into the world of open-source, and share my love for all things Linux.</p>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Django</h3>
+                    <p>Building robust web applications</p>
+                </div>
+                <div class="skill">
+                    <h3>Go</h3>
+                    <p>Exploring its potential</p>
+                </div>
+                <div class="skill">
+                    <h3>Linux</h3>
+                    <p>Mastering the penguin's playground</p>
+                </div>
             </div>
-
-          </div>
-          <div class="project-img">
-            <img src="./img/coolways.png" alt="img">
-          </div>
+            <p>From kernel tweaks to shell scripting, from system administration to open-source contributions, I'm always excited to learn and share knowledge about the Linux ecosystem.</p>
         </div>
-
-
-      </div>
+        <div id="projects" class="content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Rental Management System</h3>
+                <p>A comprehensive solution for booking rentals and buying properties.</p>
+                <ul>
+                    <li>Backend: Django REST Framework</li>
+                    <li>Frontend: React Native</li>
+                    <li>Features: Property listing, booking management, user authentication, and more</li>
+                </ul>
+            </div>
+            <!-- You can add more projects here in the future -->
+        </div>
+        <div id="contact" class="content">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me for collaboration or just to chat about tech!</p>
+            <div class="contact-links">
+                <a href="https://github.com/hacker777-cris" target="_blank" class="contact-link">GitHub</a>
+                <a href="mailto:crispusgikonyo@gmail.com" class="contact-link">Email</a>
+                <a href="https://discord.gg/tpJqDSu2" target="_blank" class="contact-link">Discord</a>
+            </div>
+        </div>
     </div>
-  </section>
-  <!-- End Projects Section -->
+    <footer>
+        <p>&copy; 2024 Crispus.dev. Powered by Linux and open-source passion.</p>
+    </footer>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="./img/me.JPG" alt="img">
-        </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <h2>Junior Backend End Developer</h2>
-        <p>I gained interest in programming during my last year in high school when I began teaching myself the fundamentals of coding. I took the initiative to build my first website using WordPress, showcasing my early achievements in web development. Feel free to check it out here: <a href="legionerror.wordpress.com">Visit Site</a>
-
-          After graduating from high school in 2019, my passion for technology led me to dive into the world of cyber security. I eagerly enrolled in cyber security bootcamps offered by the TryHackMe platform, where I honed my skills in offensive cyber security. Through hands-on challenges and immersive learning experiences, I developed a solid foundation in understanding and countering security threats.
-
-          As 2020 drew to a close, I embarked on an independent learning journey in Python programming. With a determined mindset and a thirst for knowledge, I delved into Python's intricacies, gradually mastering its concepts and techniques. Through self-directed projects and continuous practice, I further enriched my programming repertoire.
-
-          In 2022, I embarked on a new learning adventure by delving into the realm of backend development using Django. Recognizing the power and versatility of this robust web framework,My hands-on experience with Django empowered me to tackle real-world projects, allowing me to translate theoretical knowledge into practical solutions. By immersing myself in the Django ecosystem, I've not only expanded my technical toolkit but also gained a deeper appreciation for the art of backend development.
-          As I continue to sharpen my expertise in Django and backend technologies, I am eager to take on new challenges and contribute to innovative projects that rely on solid and reliable backend foundations. This chapter of my learning journey exemplifies my dedication to staying at the forefront of technology and my passion for crafting elegant solutions that power the digital world.
-
-
-          This unique blend of experiences from web development and cyber security bootcamps to self-taught Python proficiency  has shaped me into a versatile and dedicated learner. I am excited to leverage these skills and continue my growth as a well-rounded programmer and cyber security enthusiast. The journey I've undertaken so far fuels my curiosity to explore new horizons and contribute meaningfully to the ever-evolving tech landscape.
-
-        </p>
-        <a href="mailto:crispusgikonyo458@outlook.com" class="cta">CONTACT ME</a>
-      </div>
-    </div>
-  </section>
-  <!-- End About Section -->
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
-      </div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>+254759530337</h2>
-            <h2>+254747131100</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>crispusgikonyo@gmail.com</h2>
-            <h2>crispusgikonyo458@outlook.com</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Juja, Kalimoni, Kenya</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
-
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand">
-        <h1><span>CRISPUS</span>WANDIA <span></span></h1>
-      </div>
-      <h2>Your Complete Web Solution</h2>
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="https://www.facebook.com/hacker777cris/"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="https://www.instagram.com/_.crispus._/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="https://github.com/hacker777-cris"><img src="https://img.icons8.com/fluent/48/000000/github.png" /></a>
-        </div>
-      </div>
-      <p>Copyright © 2023 crispus. All rights reserved</p>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const navItems = document.querySelectorAll('nav ul li a');
+            navItems.forEach(item => {
+                item.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = item.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        });
+    </script>
 </body>
-
 </html>
