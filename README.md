@@ -1,5 +1,5 @@
 # 💫 About Me:
-- 🔭 I’m currently working on [ConnectHub](http://crispus.pythonanywhere.com/home)<br><br>- 🌱 I’m currently learning **RUST**<br><br>- 👨‍💻 All of my projects are available at [https://hacker777-cris.github.io/hacker777-cris/](https://hacker777-cris.github.io/hacker777-cris/)<br><br>- br><br>- 💬 Ask me about **Django**<br><br>- 📫 How to reach me **crispusgikonyo@gmail.com**<br><br>- ⚡ Fun fact **I love Swimming**
+🌱 I’m currently learning **GO**<br><br>- 👨‍💻 All of my projects are available at [https://hacker777-cris.github.io/hacker777-cris/](https://hacker777-cris.github.io/hacker777-cris/)<br><br>- br><br>- 💬 Ask me about **Django**<br><br>- 📫 How to reach me **crispusgikonyo@gmail.com**<br><br>- ⚡ Fun fact **I love Swimming**
 
 
 ## 🌐 Socials:
