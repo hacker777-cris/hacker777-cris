@@ -1,5 +1,5 @@
 # 💫 About Me:
-🌱 I’m currently learning **GO**<br><br>- 👨‍💻 All of my projects are available at [https://hacker777-cris.github.io/hacker777-cris/](https://chrispuswandia.netlify.app/)<br><br>- br><br>- 💬 Ask me about **Django**<br><br>- 📫 How to reach me **crispusgikonyo@gmail.com**<br><br>- ⚡ Fun fact **I love Swimming**
+🌱 I’m currently learning **GO**<br><br>- 👨‍💻 All of my projects are available at [[https://chrispuswandia.netlify.app/](https://chrispuswandia.netlify.app/)](https://chrispuswandia.netlify.app/)<br><br>- br><br>- 💬 Ask me about **Django**<br><br>- 📫 How to reach me **crispusgikonyo@gmail.com**<br><br>- ⚡ Fun fact **I love Swimming**
 
 
 ## 🌐 Socials:
