@@ -33,13 +33,24 @@ Currently building **TrackSniff** — a music intelligence platform with modern 
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <div align="center">
 
-[![Chrispus's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hacker777-cris&theme=radical&hide_border=true&show_icons=true)](https://github.com/hacker777-cris)
+### Overall Stats
+[![Chrispus's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hacker777-cris&theme=radical&hide_border=true&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/hacker777-cris)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hacker777-cris&theme=radical&hide_border=true&layout=compact)](https://github.com/hacker777-cris)
+### Contribution Streak
+[![GitHub Streak](https://streak-stats.demolab.com?user=hacker777-cris&theme=radical&hide_border=true&background=0D1117)](https://github.com/hacker777-cris)
+
+### Languages & Technologies
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hacker777-cris&theme=radical&hide_border=true&layout=compact&count_private=true&langs_count=10)](https://github.com/hacker777-cris)
+
+### GitHub Trophies
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=hacker777-cris&theme=radical&no-frame=false&no-bg=true&margin-w=4&column=7)](https://github.com/hacker777-cris)
+
+### Advanced Metrics
+[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=hacker777-cris&theme=radical&hide_border=true&layout=compact)](https://wakatime.com)
 
 </div>
 
